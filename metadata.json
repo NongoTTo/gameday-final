@@ -1,0 +1,5 @@
+{
+  "name": "GameDay",
+  "description": "A gaming news portal clone featuring Firebase integration and Gemini AI-powered search capabilities.",
+  "requestFramePermissions": []
+}
