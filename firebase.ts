@@ -19,3 +19,4 @@ export const db = getFirestore(app);
 
 console.log("Firebase initialized:", app.name);
 // update config firebase
+console.log("Force Update API Key");
