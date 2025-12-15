@@ -23,3 +23,4 @@ console.log("Force Update API Key");
 // update v2
 // final fix
 // update final
+console.log("Final Version 1.0");
