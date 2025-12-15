@@ -53,6 +53,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-col lg:flex-row gap-8">
+      <h1>TEST UPDATE 999</h1>
       <div className="lg:w-2/3">
         <BannerSlider articles={sliderArticles} />
         <TrendingSection articles={TRENDING_ARTICLES} />
