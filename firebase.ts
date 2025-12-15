@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"; // 1. เพิ่มบรรทัดนี้
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBgbmBiyl6___Q5N75tVt-eSSUTelqYRgI",
@@ -11,10 +11,7 @@ const firebaseConfig = {
   measurementId: "G-DYZKBCJZ5G"
 };
 
-// เริ่มต้นแอป
 export const app = initializeApp(firebaseConfig);
-
-// 2. เริ่มต้นฐานข้อมูล และส่งออกตัวแปร db ให้ไฟล์อื่นเอาไปใช้
-export const db = getFirestore(app); 
+export const db = getFirestore(app);
 
 console.log("Firebase initialized:", app.name);
